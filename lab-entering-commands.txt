@@ -17,7 +17,41 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
-
+'3D Objects'/      
+ AppData/
+'Application Data'@
+ Contacts/\
+ 
+ 
+ 
+ Cookies@
+ Desktop/
+ Documents/        
+ Downloads/        
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
 
 ==========
 2a. Type: 
@@ -28,17 +62,18 @@ What happens?  Describe it below.
 ----------
 Desktop/    Documents/  Downloads/
 
-
+No reponse
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
+---
+Desktop/   Documents/ Downloads/ -------
 rdrgeerwtger yg erwy brg
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -59,7 +94,41 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+ ./
+ ../
+ .vscode/
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
 
 ==========
 5.  Type:
@@ -69,7 +138,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+ls -a
 
 ==========
 6.  Type:
@@ -88,7 +157,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+ls /bin
 
 
 ==========
@@ -100,30 +169,32 @@ Copy and paste the output below.
 ----------
 
 
-
+ ls doesnotexist
+ls: cannot access 'doesnotexist': No such file or directory
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<UP><ENTER
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-a
+-t
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
