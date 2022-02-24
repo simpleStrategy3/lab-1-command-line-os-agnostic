@@ -6,6 +6,14 @@ Follow the instructions line-by-line.
 * Enter, tab, up and down are represented by <ENTER><TAB>,<UP> and <DOWN>.  
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
+'3D Objects'/         Favorites/               ntuser.dat.LOG1                                                                                PrintHood@
+ AppData/             IntelGraphicsProfiles/   ntuser.dat.LOG2                                                                                Recent@
+'Application Data'@   Links/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                       'Saved Games'/
+ Contacts/           'Local Settings'@         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Searches/
+ Cookies@             Music/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   SendTo@
+ Desktop/            'My Documents'@           ntuser.ini                                                                                    'Start Menu'@
+ Documents/           NetHood@                 OneDrive/                                                                                      Templates@
+ Downloads/           NTUSER.DAT               Pictures/                                                                                      Videos/
 
 
 
@@ -17,6 +25,14 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+'3D Objects'/         Favorites/               ntuser.dat.LOG1                                                                                PrintHood@
+ AppData/             IntelGraphicsProfiles/   ntuser.dat.LOG2                                                                                Recent@
+'Application Data'@   Links/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                       'Saved Games'/
+ Contacts/           'Local Settings'@         NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms   Searches/
+ Cookies@             Music/                   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   SendTo@
+ Desktop/            'My Documents'@           ntuser.ini                                                                                    'Start Menu'@
+ Documents/           NetHood@                 OneDrive/                                                                                      Templates@
+ Downloads/           NTUSER.DAT               Pictures/                                                                                      Videos/
 
 
 ==========
@@ -26,7 +42,7 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
+
 
 
 ==========
@@ -34,6 +50,7 @@ Desktop/    Documents/  Downloads/
 ----------
 rdrgeerwtger yg erwy brg
 
+Desktop/    Documents/  Downloads/
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
