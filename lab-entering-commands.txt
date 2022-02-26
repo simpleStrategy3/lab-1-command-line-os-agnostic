@@ -7,7 +7,7 @@ Follow the instructions line-by-line.
 * "No output" or "nothing happens" are valid answers to any of the questions.
 ==========
 
-test
+test2
 
 ==========
 1. Open Terminal.  Type:
