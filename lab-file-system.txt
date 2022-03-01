@@ -16,8 +16,11 @@ Follow the instructions line-by-line.
 ----------
 
 ==========
+ mkdir mtec1003
+
 3. Change your directory so that you're in mtec1003.
 ----------
+ cd mtec1003
 
 ==========
 4. Type:
@@ -31,6 +34,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
+/c/Users/jeffm/mtec1003
 
 
 ==========
@@ -43,6 +47,8 @@ Copy and paste the output below.
 ----------
 
 
+animals/
+
 
 ==========
 6. Type:
@@ -53,7 +59,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  food/
 
 ==========
 7. Type:
@@ -64,6 +70,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals/  foo/  food/
 
 
 ==========
@@ -75,6 +82,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/jeffm/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -86,7 +94,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/jeffm/mtec1003/foo/bar
 
 ==========
 10. Type:
@@ -97,7 +105,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/jeffm
  
 ==========
 11. Type:
@@ -107,6 +115,11 @@ $ pwd
 
 Copy and paste the output below.
 ----------
+bash: cd../../../..: No such file or directory
+
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~
+$ pwd
+/c/Users/jeffm
 
 
 
@@ -119,6 +132,9 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
+----------
+ rmdir animals
+rmdir: failed to remove 'animals': No such file or directory
 
 
 
@@ -128,9 +144,19 @@ Copy and paste the first two lines from the output into the space below.
 $ cd ~
 $ pwd
 
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~
+$ pwd
+/c/Users/jeffm
+
+
+
+
 Copy and paste the output into the space below.
 ----------
 
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~
+$ cd /mnt
+bash: cd: /mnt: No such file or directory
 
 
 ==========
@@ -142,6 +168,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+bash: cd: /Volumes: No such file or directory
 
 
 ==========
@@ -152,6 +179,8 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+ cd /unknown_folder
+bash: cd: /unknown_folder: No such file or directory
 
 
 
@@ -165,6 +194,8 @@ Copy and paste the output into the space below.
 ----------
 
 
+
+/c/Users/jeffm
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
@@ -180,6 +211,9 @@ cd ~/mtec1003
 Otherwise skip this question/step!
 ----------
 
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~/mtec1003
+$ pwd
+/c/Users/jeffm/mtec1003
 
 
 ==========
@@ -193,6 +227,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
+mkdir -p pineapple/orange/strawbery/lemon
 
 
 ==========
@@ -201,13 +236,25 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
+mkdir aardvark
 
 
 ==========
 19. List the files and directories in the current directory using the long format.  
 
 What is the modified date of the aardvark directory?
+ Feb 27 14:52
 ----------
+$ ls -l
+total 0
+drwxr-xr-x 1 jeffm 197609 0 Feb 27 14:52 aardvark/
+drwxr-xr-x 1 jeffm 197609 0 Feb 27 10:37 animals/
+drwxr-xr-x 1 jeffm 197609 0 Feb 27 14:03 foo/
+drwxr-xr-x 1 jeffm 197609 0 Feb 27 14:02 food/
+drwxr-xr-x 1 jeffm 197609 0 Feb 27 14:51 pineapple/
+What is the modified date of the aardvark directory?
+
+
 
 
 
@@ -220,6 +267,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
+mkdir -p foo/bar/baz
 
 
 
@@ -229,6 +277,10 @@ What command did you use?
 What command did you use?
 ----------
 
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~/mtec1003
+$ cd foo/bar/baz
+
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~/mtec1003/foo/bar/bazh
 
 
 ==========
@@ -238,28 +290,41 @@ What command did you use?
 ----------
 
 
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~/mtec1003/foo/bar/baz
+$ cd ..
+
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~/mtec1003/foo/bar
+$ cd ..
+
+jeffm@LAPTOP-0P73MUN7 MINGW64 ~/mtec1003/foo
+
 ==========
 23. What command is used to delete empty directories?
 ----------
+rmdir
 
-
+pwd
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
 
+pwd
+
+The ls command doesn't display hidden files/directories by default. However, you can force the tool to do that using the -a command-line option. So, to list all files/directories (including hidden ones - those with names beginning with a dot '.') in the current directory, run the following command:
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 26. What's the shortcut for home directory?
 ----------
 
+cd ~
 
 
 ==========
@@ -267,13 +332,16 @@ What command did you use?
 ----------
 
 
+complete location or name of where a computer, file, device, or web page is located
 
 ==========
 28. What's a directory?
 ----------
+A directory is a location for storing files on your computer. Directories are found in a hierarchical file system, such as Linux, MS-DOS, OS/2, and Unix.
 
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Alternatively referred to as file path and full path, the absolute path contains the root directory and all other subdirectories where a file or folder is contained. For example, 
