@@ -152,6 +152,27 @@ ls -l Documents
 
 
 ==========
+total 831
+drwxr-xr-x 1 jeffm 197609         0 Nov 25 10:33  cservice/
+drwxr-xr-x 1 jeffm 197609         0 Oct 22 22:03 'Custom Office Templates'/
+-rw-r--r-- 1 jeffm 197609       402 Sep 19 19:47  desktop.ini
+-rw-r--r-- 1 jeffm 197609  96891190 Oct 28 08:56  Document.rtf
+-rw-r--r-- 1 jeffm 197609      6313 Nov 17 21:57  followGuidelines.rtf
+-rw-r--r-- 1 jeffm 197609      1218 Dec  7 13:08  HOPECHP2_CHP3.rtf
+drwxr-xr-x 1 jeffm 197609         0 Jan  4 15:34  hospital/
+-rw-r--r-- 1 jeffm 197609     21176 Oct 22 22:14  JeffreyHan_202-10CDC.docx
+drwxr-xr-x 1 jeffm 197609         0 Dec 11 08:43  js/
+lrwxrwxrwx 1 jeffm 197609        20 Sep 19 19:43 'My Music' -> /c/Users/jeffm/Music/
+lrwxrwxrwx 1 jeffm 197609        23 Sep 19 19:43 'My Pictures' -> /c/Users/jeffm/Pictures/
+lrwxrwxrwx 1 jeffm 197609        21 Sep 19 19:43 'My Videos' -> /c/Users/jeffm/Videos/
+drwxr-xr-x 1 jeffm 197609         0 Feb 16 02:57  work/
+drwxr-xr-x 1 jeffm 197609         0 Feb 20 19:12  Zoom/
+
+
+
+
+
+
 7.  Type:
 
 $ ls /b<TAB><ENTER>
