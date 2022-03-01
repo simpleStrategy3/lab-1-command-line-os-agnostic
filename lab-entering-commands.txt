@@ -67,7 +67,7 @@ No reponse
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ---
 Desktop/   Documents/ Downloads/ -------
-rdrgeerwtger yg erwy brg
+
 
 
 ==========
@@ -148,6 +148,7 @@ ls -a
 What command was repeated?
 ----------
 
+ls -l Documents
 
 
 ==========
@@ -200,7 +201,7 @@ ls
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ Documents
 
 ==========
 14.  Type:
@@ -220,6 +221,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+$ foo<ENTER>
 
 
 ==========
@@ -228,4 +230,10 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
+
+
 ----------
+command ls
+flag -a
+argument Desktop
+prompt $
